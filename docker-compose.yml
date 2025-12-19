@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  study-word-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: study-word-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
