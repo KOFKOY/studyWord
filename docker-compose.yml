@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile
     container_name: study-word-web
     ports:
-      - "8080:80"
+      - "19009:80"
     restart: unless-stopped
